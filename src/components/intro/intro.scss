@@ -1,0 +1,61 @@
+.intro {
+  background-color: white;
+  display: flex;
+
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+
+    .imgContainer {
+      width: 700px;
+      height: 700px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-top: 50px;
+
+      img {
+        height: 70%;
+      }
+    }
+  }
+
+  .right {
+    flex: 0.5;
+    position: relative;
+
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        font-size: 60px;
+        margin: 10px 0;
+      }
+      h2 {
+        font-size: 35px;
+      }
+      h3 {
+        font-size: 25px;
+
+        span {
+          font-size: inherit;
+          color: rgb(0, 183, 255);
+        }
+      }
+    }
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 30%;
+
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
