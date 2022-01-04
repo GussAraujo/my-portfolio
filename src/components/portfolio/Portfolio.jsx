@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./portfolio.scss"
-import financeiro from "../../assets/sistemaFinanceiro.jpeg"
 import PortfolioList from "../portfolioList/PortfolioList"
 import {
   sistemaPortfolio,

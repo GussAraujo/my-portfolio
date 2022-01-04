@@ -25,6 +25,7 @@
       flex-wrap: wrap;
       justify-content: center;
       padding-top: 30px;
+      margin: 10px 0;
       // padding-left: 50px;
     }
   }
@@ -39,7 +40,8 @@
 
     @include mobile{
       width: 100%;
-      padding-top: 60px;
+      // height: 210px;
+      padding-top: 10px;
     }
 
 
@@ -58,8 +60,12 @@
       cursor: pointer;
 
       @include mobile{
-        width: 320px;
-        height: 190px;
+        margin-top: 0;
+        // width: 170px;
+        // height: 90px;
+
+        width: 130px;
+        height: 100px;
 
       }
 
