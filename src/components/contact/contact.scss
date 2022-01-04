@@ -14,11 +14,11 @@
 
     img {
       height: 100%;
-      margin-top: 80px;
 
       @include mobile {
         height: 75%;
         width: 100%;
+        margin-top: 80px;
       }
     }
   }

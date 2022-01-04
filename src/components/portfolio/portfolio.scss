@@ -73,6 +73,14 @@
         position: absolute;
         font-size: 20px;
 
+        @include mobile{
+          padding: 10px;
+          border-radius: 10px;
+          background-color: $mainColor;
+          color: white;
+          z-index: 2;
+        }
+
       }
 
       img {
