@@ -61,12 +61,13 @@
 
       @include mobile{
         margin-top: 0;
-        // width: 170px;
-        // height: 90px;
-
         width: 130px;
         height: 100px;
+      }
 
+      @include tablet{
+        width: 315px;
+        height: 200px;
       }
 
       h3 {
