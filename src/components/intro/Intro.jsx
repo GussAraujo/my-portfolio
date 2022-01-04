@@ -1,7 +1,7 @@
 import "./intro.scss"
 import { useEffect, useRef }from 'react'
 import { init } from "ityped"
-import avatar from "../../assets/avatar.png"
+import avatar from "../../assets/eu.jpeg"
 import down from "../../assets/down.png"
 
 export default function Intro() {

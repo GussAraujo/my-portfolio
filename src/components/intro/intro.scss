@@ -12,14 +12,15 @@
   .left {
     flex: 0.5;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
+      width: 330px;
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       justify-content: center;
-      margin-top: 50px;
 
       @include mobile {
         align-items: flex-start;
