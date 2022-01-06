@@ -8,8 +8,6 @@ import {
   appPortfolio
 } from '../../data'
 
-import mobile from "../../assets/appmobile.png"
-
 export default function Portfolio() {
 
   const [selected, setSelected] = useState("sistema");
