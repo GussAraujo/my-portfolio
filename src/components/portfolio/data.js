@@ -1,6 +1,6 @@
-import mobile from "./assets/appmobile.png"
-import api from "./assets/apinode.png"
-import api2 from "./assets/apinode2.png"
+import mobile from "../../assets/appmobile.png"
+import api from "../../assets/apinode.png"
+import api2 from "../../assets/apinode2.png"
 
 export const sistemaPortfolio = [
   {

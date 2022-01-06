@@ -6,7 +6,7 @@ import {
   chatPortfolio,
   apiPortfolio,
   appPortfolio
-} from '../../data'
+} from './data'
 
 export default function Portfolio() {
 
