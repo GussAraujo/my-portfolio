@@ -36,7 +36,7 @@ export const apiPortfolio = [
   },
 ];
 
-export const mobilePortfolio = [
+export const appPortfolio = [
   {
     id: 1,
     title: "App de Registo e Login",

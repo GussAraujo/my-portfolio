@@ -16,7 +16,7 @@
   }
 
   .container {
-    width: 80%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
     }
   
     .items {
-      width:120px;
+      // width: 120px;
       height: 120px;
       margin: 20px;
       padding-top: 15px;
@@ -42,6 +42,7 @@
       justify-content: center;
       color: white;
       position: relative;
+      padding-left: 10px;
 
       @include mobile{
         width: 60px;
@@ -50,7 +51,8 @@
       }
 
       @include tablet{
-        width: 70px;
+        width: 60px;
+        padding-top: 5px;
       }
       
       @include mobile-min{
@@ -58,7 +60,7 @@
       }
 
       img {
-        width: 90px;
+        width: 70px;
       }
     }
   }

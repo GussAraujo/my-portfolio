@@ -5,8 +5,10 @@ import {
   sistemaPortfolio,
   chatPortfolio,
   apiPortfolio,
-  mobilePortfolio
+  appPortfolio
 } from '../../data'
+
+import mobile from "../../assets/appmobile.png"
 
 export default function Portfolio() {
 
@@ -27,8 +29,8 @@ export default function Portfolio() {
       title: "API Node.Js"
     },
     {
-      id: "mobile",
-      title: "Mobile App"
+      id: "app",
+      title: "App"
     },
   ];
 
@@ -43,8 +45,8 @@ export default function Portfolio() {
       case "api":
         setData(apiPortfolio);
       break;
-      case "mobile":
-        setData(mobilePortfolio);
+      case "app":
+        setData(appPortfolio);
       break;
     
       default:
