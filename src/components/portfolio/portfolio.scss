@@ -7,6 +7,10 @@
   align-items: center;
   padding-top: 80px;
 
+  @include mobile-min {
+    padding-top: 30px;
+  }
+
   h1 {
     font-size: 50px;
 
@@ -67,6 +71,12 @@
       @include tablet{
         width: 315px;
         height: 200px;
+      }
+
+      @include mobile-min{
+        width: 65%;
+        height: 100%;
+        margin-left: 60px;
       }
 
       h3 {
