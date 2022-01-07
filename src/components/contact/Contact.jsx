@@ -3,6 +3,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
+
+import down from "../../assets/down.png"
 import curriculo from '../../assets/curriculo_gustavo_araujo.pdf'
 
 export default function Contact() {
@@ -28,6 +30,9 @@ export default function Contact() {
         <div className="itemContainer">
             <MenuBookIcon className="icon" fontSize="large"/>
             <a href={curriculo} download='Curriculo_Gustavo_Araujo.pdf'> Baixe o <span> Currículo </span> </a>
+        </div>
+        <div className="up">
+          <a href="#intro"> <img src={down} alt=""/></a>
         </div>
       </div>
     </div>
