@@ -13,15 +13,15 @@ export default function Contact() {
         <h2>Contato.</h2>
         <div className="itemContainer">
             <LinkedInIcon className="icon" />
-            <a href='https://www.linkedin.com/in/gustavo-ara%C3%BAjo-504601214/'> Gustavo Araújo </a>
+            <a href='https://www.linkedin.com/in/gustavo-ara%C3%BAjo-504601214/' target="_blank"> Gustavo Araújo </a>
         </div>
         <div className="itemContainer">
             <GitHubIcon className="icon" />
-            <a href='https://github.com/GussAraujo'> GussAraujo </a>
+            <a href='https://github.com/GussAraujo' target="_blank"> GussAraujo </a>
         </div>
         <div className="itemContainer">
             <InstagramIcon className="icon" />
-            <a href='https://www.instagram.com/gus.js/'> @gus.js </a>
+            <a href='https://www.instagram.com/gus.js/' target="_blank"> @gus.js </a>
         </div>
       </div>
     </div>
