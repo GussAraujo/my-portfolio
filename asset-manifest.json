@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c236dbb4.css",
-    "main.js": "/my-portfolio/static/js/main.3f23bdcf.js",
+    "main.css": "/my-portfolio/static/css/main.d3053e23.css",
+    "main.js": "/my-portfolio/static/js/main.2f1c76c2.js",
     "static/media/apinode.png": "/my-portfolio/static/media/apinode.54c0851789a88d4e1128.png",
+    "static/media/curriculo_gustavo_araujo.pdf": "/my-portfolio/static/media/curriculo_gustavo_araujo.c1674899f1e0cb6da1e0.pdf",
     "static/media/eu.jpeg": "/my-portfolio/static/media/eu.32a732037eb3b8228d60.jpeg",
     "static/media/apinode2.png": "/my-portfolio/static/media/apinode2.b6bb9c3aca73f397e4c5.png",
     "static/media/ifba.png": "/my-portfolio/static/media/ifba.b80cac297d6d09c82a40.png",
     "static/media/appmobile.png": "/my-portfolio/static/media/appmobile.d16141fa33a1b0ae81db.png",
     "static/media/udemy.png": "/my-portfolio/static/media/udemy.a44bec25d5727691f1b7.png",
     "index.html": "/my-portfolio/index.html",
-    "main.c236dbb4.css.map": "/my-portfolio/static/css/main.c236dbb4.css.map",
-    "main.3f23bdcf.js.map": "/my-portfolio/static/js/main.3f23bdcf.js.map"
+    "main.d3053e23.css.map": "/my-portfolio/static/css/main.d3053e23.css.map",
+    "main.2f1c76c2.js.map": "/my-portfolio/static/js/main.2f1c76c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c236dbb4.css",
-    "static/js/main.3f23bdcf.js"
+    "static/css/main.d3053e23.css",
+    "static/js/main.2f1c76c2.js"
   ]
 }
