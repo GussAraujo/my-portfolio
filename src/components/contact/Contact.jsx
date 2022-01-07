@@ -2,6 +2,8 @@ import "./contact.scss"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import curriculo from '../../assets/curriculo_gustavo_araujo.pdf'
 
 export default function Contact() {
   return (
@@ -12,16 +14,20 @@ export default function Contact() {
       <div className="right">
         <h2>Contato.</h2>
         <div className="itemContainer">
-            <LinkedInIcon className="icon" />
+            <LinkedInIcon className="icon" fontSize="large"/>
             <a href='https://www.linkedin.com/in/gustavo-ara%C3%BAjo-504601214/' target="_blank"> Gustavo Araújo </a>
         </div>
         <div className="itemContainer">
-            <GitHubIcon className="icon" />
+            <GitHubIcon className="icon" fontSize="large"/>
             <a href='https://github.com/GussAraujo' target="_blank"> GussAraujo </a>
         </div>
         <div className="itemContainer">
-            <InstagramIcon className="icon" />
+            <InstagramIcon className="icon" fontSize="large"/>
             <a href='https://www.instagram.com/gus.js/' target="_blank"> @gus.js </a>
+        </div>
+        <div className="itemContainer">
+            <MenuBookIcon className="icon" fontSize="large"/>
+            <a href={curriculo} download='Curriculo_Gustavo_Araujo.pdf'> Baixe o <span> Currículo </span> </a>
         </div>
       </div>
     </div>
