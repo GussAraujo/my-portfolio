@@ -15,15 +15,15 @@ export default function Contact() {
         <h2>Contato.</h2>
         <div className="itemContainer">
             <LinkedInIcon className="icon" fontSize="large"/>
-            <a href='https://www.linkedin.com/in/gustavo-ara%C3%BAjo-504601214/' target="_blank"> Gustavo Araújo </a>
+            <a href='https://www.linkedin.com/in/gustavo-ara%C3%BAjo-504601214/' target="_blank" rel="noreferrer"> Gustavo Araújo </a>
         </div>
         <div className="itemContainer">
             <GitHubIcon className="icon" fontSize="large"/>
-            <a href='https://github.com/GussAraujo' target="_blank"> GussAraujo </a>
+            <a href='https://github.com/GussAraujo' target="_blank" rel="noreferrer"> GussAraujo </a>
         </div>
         <div className="itemContainer">
             <InstagramIcon className="icon" fontSize="large"/>
-            <a href='https://www.instagram.com/gus.js/' target="_blank"> @gus.js </a>
+            <a href='https://www.instagram.com/gus.js/' target="_blank" rel="noreferrer"> @gus.js </a>
         </div>
         <div className="itemContainer">
             <MenuBookIcon className="icon" fontSize="large"/>
