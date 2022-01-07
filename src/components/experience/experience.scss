@@ -15,6 +15,7 @@
     align-items: center;
     margin-top: 80px;
     margin-left: 30px;
+    margin-bottom: 0px;
 
     @include mobile-min {
       margin-top: 30px;
@@ -22,6 +23,7 @@
 
     @include mobile {
       margin-left: 0px;
+      margin-top: 50px;
     }
 
     h2 {
@@ -110,6 +112,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
+    margin-bottom: 50px;
 
     @include mobile {
       margin-left: 0px;
@@ -122,6 +125,7 @@
 
       @include mobile {
         font-size: 30px;
+        padding-bottom: 10px;
       }
       @include mobile-min {
         padding-top: 5px;
@@ -134,31 +138,15 @@
       flex-direction: column;
       align-items: center;
 
-      h3 {
-        font-size: 20px;
-        margin-left: 5px;
-        text-align: center;
-        padding-bottom: 55px;
-
-        @include mobile {
-          font-size: 15px;
-          padding-bottom: 15px;
-        }
-
-        @include mobile-min {
-          font-size: 14px;
-        }
-      }
-
       img {
         margin-top: 15px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         width: 60px;
 
         @include mobile {
           width: 40px;
           margin-top: 0px;
-          margin-bottom: 15px;
+          margin-bottom: 10px;
         }
       }
     }
@@ -167,9 +155,30 @@
       margin-left: 0px;
       display: flex;
       flex-direction: column;
+      border-radius: 20px;
+      border: 1px solid #a435f0;
+      padding: 10px;
+      margin-bottom: 10px;
 
       @include mobile {
         margin-left: 20px;
+        margin-right: 20px;
+      }
+      
+      h3 {
+        font-size: 20px;
+        margin-left: 5px;
+        text-align: center;
+        padding-bottom: 15px;
+
+        @include mobile {
+          font-size: 12px;
+          padding-bottom: 0px;
+        }
+
+        @include mobile-min {
+          font-size: 14px;
+        }
       }
 
       h4 {

@@ -27,16 +27,15 @@
     color: white;
     width: 60%;
 
-    li {
-      margin-bottom: 25px;
-      a {
-        font-size: inherit;
-        color: inherit;
-        text-decoration: none;
-      }
-
-      &:hover {
-        font-weight: 500;
+    a {
+      font-size: inherit;
+      color: inherit;
+      text-decoration: none;
+      li {
+        margin-bottom: 25px;
+        &:hover {
+          font-weight: 500;
+        }
       }
     }
   }

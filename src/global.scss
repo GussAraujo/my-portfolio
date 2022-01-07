@@ -1,11 +1,18 @@
 // $mainColor: #15023a;
 $mainColor: black;
 $width: 1020px;
-$width-min: 360px;
+$width-min: 399px;
 $height: 550px;
+$sleep: 747px;
 
 @mixin mobile {
   @media (max-width: #{$width}) {
+    @content
+  }
+};
+
+@mixin mobile-sleep {
+  @media (max-width: #{$sleep}) {
     @content
   }
 };
