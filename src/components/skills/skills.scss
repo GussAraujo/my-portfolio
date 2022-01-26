@@ -35,8 +35,8 @@
     .items {
       // width: 120px;
       height: 120px;
-      margin: 20px;
-      padding-top: 15px;
+      margin: 10px;
+      padding-top: 60px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -45,7 +45,7 @@
       padding-left: 10px;
 
       @include mobile{
-        width: 60px;
+        width: 90px;
         padding: 0;
         margin: 10px;
       }

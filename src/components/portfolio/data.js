@@ -1,4 +1,4 @@
-import mobile from "../../assets/appmobile.png"
+import api_asp from "../../assets/api_asp.png"
 import api from "../../assets/apinode.png"
 import api2 from "../../assets/apinode2.png"
 
@@ -21,7 +21,7 @@ export const chatPortfolio = [
   },
 ];
 
-export const apiPortfolio = [
+export const apiNodePortfolio = [
   {
     id: 1,
     title: "API com JavaScript",
@@ -36,11 +36,11 @@ export const apiPortfolio = [
   },
 ];
 
-export const appPortfolio = [
+export const apiAspPortfolio = [
   {
     id: 1,
-    title: "App de Registo e Login",
-    site: "https://github.com/GussAraujo/app_register",
-    img: mobile,
+    title: "API CRUD em Asp.Net Core",
+    site: "https://github.com/GussAraujo/api-crud",
+    img: api_asp,
   },
 ];

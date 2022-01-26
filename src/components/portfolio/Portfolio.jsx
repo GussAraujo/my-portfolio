@@ -4,8 +4,8 @@ import PortfolioList from "../portfolioList/PortfolioList"
 import {
   sistemaPortfolio,
   chatPortfolio,
-  apiPortfolio,
-  appPortfolio
+  apiNodePortfolio,
+  apiAspPortfolio,
 } from './data'
 
 export default function Portfolio() {
@@ -23,12 +23,12 @@ export default function Portfolio() {
       title: "Web Chat"
     },
     {
-      id: "api",
+      id: "api_node",
       title: "API Node.Js"
     },
     {
-      id: "app",
-      title: "App"
+      id: "api_Asp",
+      title: "API Asp.Net"
     },
   ];
 
@@ -40,11 +40,11 @@ export default function Portfolio() {
       case "chat":
         setData(chatPortfolio);
       break;
-      case "api":
-        setData(apiPortfolio);
+      case "api_node":
+        setData(apiNodePortfolio);
       break;
-      case "app":
-        setData(appPortfolio);
+      case "api_Asp":
+        setData(apiAspPortfolio);
       break;
     
       default:

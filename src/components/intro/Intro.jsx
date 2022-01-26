@@ -1,7 +1,7 @@
 import "./intro.scss"
 import { useEffect, useRef }from 'react'
 import { init } from "ityped"
-import avatar from "../../assets/eu.jpeg"
+import avatar from "../../assets/eu2.jpeg"
 import down from "../../assets/down.png"
 
 export default function Intro() {
@@ -13,7 +13,7 @@ export default function Intro() {
       backDelay: 1500,
       backSpeed: 80,
       showCursor: true,
-      strings: ["Back-End", "Front-End"] })
+      strings: ["Back-End"] })
   }, [])
 
   return (
