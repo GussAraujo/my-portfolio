@@ -52,7 +52,6 @@ export default function Portfolio() {
       break;
     }
   }, [selected])
- 
   return (
     <div className="portfolio" id="portfolio">
       <h1> Portifólio </h1>
