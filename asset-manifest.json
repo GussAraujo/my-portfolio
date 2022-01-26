@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.e3d6a11e.css",
-    "main.js": "/my-portfolio/static/js/main.18bea340.js",
+    "main.css": "/my-portfolio/static/css/main.93aed10b.css",
+    "main.js": "/my-portfolio/static/js/main.ee31cbd4.js",
     "static/media/apinode.png": "/my-portfolio/static/media/apinode.54c0851789a88d4e1128.png",
-    "static/media/curriculo_gustavo_araujo.pdf": "/my-portfolio/static/media/curriculo_gustavo_araujo.c1674899f1e0cb6da1e0.pdf",
-    "static/media/eu.jpeg": "/my-portfolio/static/media/eu.32a732037eb3b8228d60.jpeg",
+    "static/media/curriculo_gustavo_araujo.pdf": "/my-portfolio/static/media/curriculo_gustavo_araujo.e1cb97682f59ee5cfac1.pdf",
+    "static/media/api_asp.png": "/my-portfolio/static/media/api_asp.db818ab240ee15fe6608.png",
     "static/media/apinode2.png": "/my-portfolio/static/media/apinode2.b6bb9c3aca73f397e4c5.png",
+    "static/media/eu2.jpeg": "/my-portfolio/static/media/eu2.5f0bc2d825f2792e1ead.jpeg",
     "static/media/ifba.png": "/my-portfolio/static/media/ifba.b80cac297d6d09c82a40.png",
-    "static/media/appmobile.png": "/my-portfolio/static/media/appmobile.d16141fa33a1b0ae81db.png",
     "static/media/udemy.png": "/my-portfolio/static/media/udemy.a44bec25d5727691f1b7.png",
     "index.html": "/my-portfolio/index.html",
-    "main.e3d6a11e.css.map": "/my-portfolio/static/css/main.e3d6a11e.css.map",
-    "main.18bea340.js.map": "/my-portfolio/static/js/main.18bea340.js.map"
+    "main.93aed10b.css.map": "/my-portfolio/static/css/main.93aed10b.css.map",
+    "main.ee31cbd4.js.map": "/my-portfolio/static/js/main.ee31cbd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3d6a11e.css",
-    "static/js/main.18bea340.js"
+    "static/css/main.93aed10b.css",
+    "static/js/main.ee31cbd4.js"
   ]
 }
