@@ -8,7 +8,7 @@ import down from "../../assets/down.png"
 import curriculo from '../../assets/curriculo_gustavo_araujo.pdf'
 
 export default function Contact() {
-  return (
+  return ( 
     <div className="contact" id="contact">
       <div className="left">
         <img src="https://raw.githubusercontent.com/safak/youtube/react-portfolio/public/assets/shake.svg" alt="" />
