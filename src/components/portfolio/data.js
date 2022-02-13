@@ -1,6 +1,7 @@
 import api_asp from "../../assets/api_asp.png"
 import api from "../../assets/apinode.png"
 import api2 from "../../assets/apinode2.png"
+import swagger from "../../assets/swagger.png"
 
 export const sistemaPortfolio = [
   {
@@ -29,7 +30,7 @@ export const apiNodePortfolio = [
     img: api,
   },
   {
-    id: 1,
+    id: 2,
     title: "API com TypeScript",
     site: "https://github.com/GussAraujo/api-typescript",
     img: api2,
@@ -43,4 +44,10 @@ export const apiAspPortfolio = [
     site: "https://github.com/GussAraujo/api-crud",
     img: api_asp,
   },
+  {
+    id: 2,
+    title: "API em Asp.Net Core 6",
+    site: "https://github.com/GussAraujo/API-dotnet-6",
+    img: swagger,
+  }
 ];

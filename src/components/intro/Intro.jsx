@@ -13,7 +13,7 @@ export default function Intro() {
       backDelay: 1500,
       backSpeed: 80,
       showCursor: true,
-      strings: ["Back-End"] })
+      strings: ["Back-End", "Node.Js", "Asp.Net"] })
   }, [])
 
   return (

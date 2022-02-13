@@ -60,16 +60,14 @@
 
       img {
         margin-top: 15px;
-        margin-bottom: 25px;
-        width: 60px;
+        margin-bottom: 15px;
+        height: 80px;
         
         @include mobile {
-          width: 50px;
+          height: 45px;
           margin-top: 0px;
-          height: 60px;
           margin-bottom: 5px;
         }
-
       }
 
       h5 {
@@ -140,12 +138,12 @@
       align-items: center;
 
       img {
-        margin-top: 15px;
+        margin-top: 0px;
         margin-bottom: 10px;
-        width: 60px;
+        height: 80px;
 
         @include mobile {
-          width: 40px;
+          height: 45px;
           margin-top: 0px;
           margin-bottom: 10px;
         }
@@ -164,22 +162,23 @@
       @include mobile {
         margin-left: 20px;
         margin-right: 20px;
+        padding: 8px;
       }
 
       h3 {
         font-size: 20px;
         margin-left: 5px;
         text-align: center;
-        padding-bottom: 15px;
+        padding-bottom: 8px;
         overflow: hidden;
 
         @include mobile {
-          font-size: 12px;
+          font-size: 8px;
           padding-bottom: 0px;
         }
 
         @include mobile-min {
-          font-size: 14px;
+          font-size: 8px;
         }
       }
 
