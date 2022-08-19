@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.5157760a.css",
-    "main.js": "/my-portfolio/static/js/main.e10b9a1b.js",
-    "static/media/curriculo_gustavo_araujo.pdf": "/my-portfolio/static/media/curriculo_gustavo_araujo.13f6e7291540077c283c.pdf",
+    "main.js": "/my-portfolio/static/js/main.b0b4d71b.js",
     "static/media/apinode.png": "/my-portfolio/static/media/apinode.54c0851789a88d4e1128.png",
+    "static/media/curriculo_gustavo_araujo.pdf": "/my-portfolio/static/media/curriculo_gustavo_araujo.4df6b542f3cb72eb8263.pdf",
     "static/media/api_asp.png": "/my-portfolio/static/media/api_asp.db818ab240ee15fe6608.png",
     "static/media/apinode2.png": "/my-portfolio/static/media/apinode2.b6bb9c3aca73f397e4c5.png",
     "static/media/eu2.jpeg": "/my-portfolio/static/media/eu2.5f0bc2d825f2792e1ead.jpeg",
@@ -12,10 +12,10 @@
     "static/media/udemy.png": "/my-portfolio/static/media/udemy.a44bec25d5727691f1b7.png",
     "index.html": "/my-portfolio/index.html",
     "main.5157760a.css.map": "/my-portfolio/static/css/main.5157760a.css.map",
-    "main.e10b9a1b.js.map": "/my-portfolio/static/js/main.e10b9a1b.js.map"
+    "main.b0b4d71b.js.map": "/my-portfolio/static/js/main.b0b4d71b.js.map"
   },
   "entrypoints": [
     "static/css/main.5157760a.css",
-    "static/js/main.e10b9a1b.js"
+    "static/js/main.b0b4d71b.js"
   ]
 }
